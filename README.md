@@ -1,4 +1,4 @@
-## Point Cloud Navigate & Extract App and Point Cloud Fit & Cluster App
+## Point Cloud Navigate and Extract App & Point Cloud Fit and Cluster App
 
 ## Description
 
@@ -10,7 +10,7 @@ The "Point Cloud Fit and Cluster App" loads the selected sub point clouds extrac
 
 
 ## Usage
-I included a '.mat' file that includes the sample point cloud objects that I have been using to test the apps during development. I included the MATLAB script used to generate the sample point clouds used to test the apps during development. There are two point cloud objects, the original and the down-sampled version, that you can use to familiarize with the app functionalies. Depending on the specs of the machine used, it might be recommended to use the down-sampled point cloud to observe improved performance. Note that if you generate code from the "PointCloudFitAndClusterApp" using the down-sampled point cloud, you can reuse the same functions on the fully sampled pointcloud, to extract the same objects at a higher point density. 
+I included the MATLAB script used to generate the sample point clouds used to test the apps during development. It produces two point cloud objects, the original and the down-sampled version, that you can use to familiarize with the app functionalies. Depending on the specs of the machine used, it might be recommended to use the down-sampled point cloud to observe improved performance. Note that if you generate code from the "PointCloudFitAndClusterApp" using the down-sampled point cloud, you can reuse the same functions on the fully sampled pointcloud, to extract the same objects at a higher point density. 
 
 Additionally, note that once you use a different point cloud object with the apps, you might need to modify some of the 'hyperparameters' in the 'properties' section of the app, in case you notice that the app is not working as expected. Hyperparameters such as 'MouseRatio' or 'TimerPeriod' will depend on the machine settings and mouse sensitivity used to run the apps. Meanwhile other hyperparameters such as 'PointSize', 'PointDensity' and 'ObjectSizes' will depend on the format/size/density of the point cloud object used. 
 

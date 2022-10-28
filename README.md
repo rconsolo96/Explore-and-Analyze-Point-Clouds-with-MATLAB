@@ -1,13 +1,13 @@
-## Explore and Analyze Point Clouds with MATLAB
+# Explore and Analyze Point Clouds with MATLAB
 
 ## Description
 
 This demo includes two proof of concept apps designed using MATLAB® App Designer and the Computer Vision Toolbox™. The goal of these apps is to showcase some of the point cloud processing functionalities that can be performed using MATLAB. 
 
-++ ExplorePointCloud App
+### ExplorePointCloud App
 The "ExplorePointCloud" App allows the user to load a point cloud object and easily navigate through and around it, using keyboard shortcuts and the mouse pointer. The app also enables the selection of certain regions of interest within the point cloud which can then be saved as separate point cloud objects. This app is useful for inspection of point clouds, for example scans of building/ construction sites, or driving scenarios that have been recorded using LIDAR sensors. The selection and extraction feature of the app is also useful to easily generate smaller point cloud of objects, which can then be analyzed individually. 
 
-++ AnalyzePointCloud App
+### AnalyzePointCloud App
 The "AnalyzePointCloud" App loads the selected sub point clouds extracted using the "ExplorePointCloud" App and allows the user to perform some analysis on them. These functionalities include shape fitting, clustering and feature measurement of the point cloud objects. The app also provides the option to save the processed point clouds objects to a file, or even generate the code of the function that generates them, so that it can be used programmatically. This app is useful to interactively apply and test many of the point cloud processing functionalities that MATLAB offers. The app is also convenient to analyze and measure any kind of object scanned in the point cloud, and to generate code that can be used in an automated workflow. 
 
 

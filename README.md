@@ -33,7 +33,7 @@ Alternatively, you can select and and export the sub point clouds using the "Exp
 Requires MATLAB release R2021b or newer
 - [Computer Vision Toolbox™](https://www.mathworks.com/products/computer-vision.html)
 
-[![View Point Cloud Navigate and Extract & Fit and Cluster Apps on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/117840-point-cloud-navigate-and-extract-fit-and-cluster-apps)
+[![View Explore and Analyze Point Clouds with MATLAB on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/117840-explore-and-analyze-point-clouds-with-matlab)
 
 ## Support
 If you have any questions on how to use the apps, or if you have some feedback to share, please feel free to contact me at: rconsolo@mathworks.com 
